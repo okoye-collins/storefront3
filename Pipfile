@@ -14,6 +14,13 @@ djoser = "*"
 djangorestframework-simplejwt = "*"
 pillow = "*"
 django-cors-headers = "*"
+django-templated-mail = "*"
+click-didyoumean = "*"
+prompt-toolkit = "*"
+redis = "*"
+celery = {extras = ["redis"], version = "*"}
+async-timeout = "*"
+flower = "*"
 
 [dev-packages]
 autopep8 = "*"
