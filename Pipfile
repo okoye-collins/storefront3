@@ -18,12 +18,16 @@ django-templated-mail = "*"
 click-didyoumean = "*"
 prompt-toolkit = "*"
 redis = "*"
-celery = {extras = ["redis"], version = "*"}
+celery = {extras = ["redis"] }
 async-timeout = "*"
 flower = "*"
 
 [dev-packages]
 autopep8 = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-watch = "*"
+model-bakery = "*"
 
 [requires]
 python_version = "3.11"
