@@ -1,9 +1,8 @@
 from django.contrib.auth.models import User
 from rest_framework import status
-import pytest
 from model_bakery import baker
-
 from store.models import Collection
+import pytest
 
 
 @pytest.fixture
