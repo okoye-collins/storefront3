@@ -21,6 +21,8 @@ redis = "*"
 celery = {extras = ["redis"] }
 async-timeout = "*"
 flower = "*"
+django-silk = "*"
+django-redis = "*"
 
 [dev-packages]
 autopep8 = "*"
